@@ -61,6 +61,12 @@
       'job2'
       'job3';
     grid-template-columns: 1fr;
+
+    .bio-image {
+      background-size: cover;
+      width: 200px;
+      height: 200px;
+    }
   }
 
   .projects {
@@ -73,6 +79,7 @@
   main#home h1 {
     margin-top: 10vh;
     font-size: 4.5rem;
+    text-align: center;
   }
 
   main#about h1 {
@@ -88,6 +95,7 @@
   main#contact h1 {
     margin-top: 10vh;
     font-size: 4.5rem;
+    text-align: center;
   }
 
   .projects {

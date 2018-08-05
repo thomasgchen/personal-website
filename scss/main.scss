@@ -110,6 +110,14 @@ main {
     background: lighten($primary-color, 5);
     padding: 0.5rem;
     border-bottom: $secondary-color 5px solid;
+
+    img {
+      width: 200px;
+      height: 200px;
+      display: block;
+      margin: 0 auto;
+      border-radius: 10%;
+    }
   }
 }
 
